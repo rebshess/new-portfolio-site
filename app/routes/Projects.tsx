@@ -77,70 +77,16 @@ export default function Feature() {
               />
             </svg>
           </div>
-          <h6 className='mb-2 font-semibold leading-5'>Explore space</h6>
+          <h6 className='mb-2 font-semibold leading-5'>Resolution Evolution</h6>
           <p className='mb-3 text-sm text-gray-900'>
-            We are all connected to the universe atomically, strong bonds.
+            A pokemon-themed New Year's Resolution <br /> application for
+            tracking progress toward goals.
           </p>
-          <ul className='mb-4 -ml-1 space-y-2'>
-            <li className='flex items-start'>
-              <span className='mr-1'>
-                <svg
-                  className='w-5 h-5 mt-px text-deep-purple-accent-400'
-                  stroke='currentColor'
-                  viewBox='0 0 52 52'
-                >
-                  <polygon
-                    strokeWidth='4'
-                    strokeLinecap='round'
-                    strokeLinejoin='round'
-                    fill='none'
-                    points='29 13 14 29 25 29 23 39 38 23 27 23'
-                  />
-                </svg>
-              </span>
-              Infinity
-            </li>
-            <li className='flex items-start'>
-              <span className='mr-1'>
-                <svg
-                  className='w-5 h-5 mt-px text-deep-purple-accent-400'
-                  stroke='currentColor'
-                  viewBox='0 0 52 52'
-                >
-                  <polygon
-                    strokeWidth='4'
-                    strokeLinecap='round'
-                    strokeLinejoin='round'
-                    fill='none'
-                    points='29 13 14 29 25 29 23 39 38 23 27 23'
-                  />
-                </svg>
-              </span>
-              Stars
-            </li>
-            <li className='flex items-start'>
-              <span className='mr-1'>
-                <svg
-                  className='w-5 h-5 mt-px text-deep-purple-accent-400'
-                  stroke='currentColor'
-                  viewBox='0 0 52 52'
-                >
-                  <polygon
-                    strokeWidth='4'
-                    strokeLinecap='round'
-                    strokeLinejoin='round'
-                    fill='none'
-                    points='29 13 14 29 25 29 23 39 38 23 27 23'
-                  />
-                </svg>
-              </span>
-              Black Holes
-            </li>
-          </ul>
+
           <a
             href='/'
             aria-label=''
-            className='inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800'
+            className='inline-flex items-center font-semibold transition-colors duration-200 text-indigo-500 hover:text-indigo-800'
           >
             Learn more
           </a>
