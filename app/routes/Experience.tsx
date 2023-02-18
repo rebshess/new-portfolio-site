@@ -1,3 +1,5 @@
+import { Link } from '@remix-run/react';
+
 import Greenhouse from 'public/Greenhouse.png';
 import Attentive from 'public/Attentive.png';
 import VisiQL from 'public/VisiQL.png';
@@ -11,6 +13,7 @@ export default function Experience() {
         </h1>
       </div>
       <div className='container flex flex-col items-center justify-center mx-auto lg:flex-row lg:flex-wrap lg:justify-evenly lg:px-10'>
+        {/* <Link to='experience/greenhouse' onClick={}> */}
         <div className='flex flex-col max-w-sm mx-4 my-6 shadow-lg hover:scale-105'>
           <div className='px-4 py-12 rounded-t-lg sm:px-8 md:px-12 dark:bg-zinc-800'>
             <p className='relative px-6 py-1 text-lg italic text-center dark:text-gray-100'>
@@ -20,6 +23,7 @@ export default function Experience() {
               take on what’s next.
             </p>
           </div>
+
           <div className='flex flex-col items-center justify-center p-8 rounded-b-lg dark:bg-indigo-500 dark:text-gray-900'>
             <img
               src={Greenhouse}
@@ -33,6 +37,7 @@ export default function Experience() {
             <p>2015 - 2020</p>
           </div>
         </div>
+        {/* </Link> */}
         <div className='flex flex-col max-w-sm mx-4 my-6 shadow-lg hover:scale-105'>
           <div className='px-4 py-12 rounded-t-lg sm:px-8 md:px-12 dark:bg-zinc-800'>
             <p className='relative px-6 py-1 text-lg italic text-center dark:text-gray-100'>
