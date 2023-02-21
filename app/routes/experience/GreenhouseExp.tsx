@@ -10,13 +10,13 @@ export default function GreenhouseExp({
   setOpenGreenhouse,
 }: GreenhouseProps) {
   return openGreenhouse ? (
-    <section className='dark:bg-gray-800 dark:text-gray-100 mx-auto'>
+    <section className='dark:bg-gray-800 dark:text-gray-100 mx-auto sm:p-8'>
       <div className='container flex flex-col-reverse mx-auto lg:flex-row'>
-        <div className='flex flex-col rounded-sm sm:p-8 lg:p-12 dark:bg-indigo-500 dark:text-gray-900'>
+        <div className='flex flex-col rounded-sm lg:p-12 dark:bg-indigo-500 dark:text-gray-900 p-4 sm:text-sm'>
           <div className='flex space-x-2 sm:space-x-4'>
-            <div className='space-y-2'>
+            <div className='space-y-2 '>
               <p className='text-lg font-medium leading-snug'>
-                Manager, Sales Development | August 2019 - April 2020
+                Manager, Sales Development <br /> August 2019 - April 2020
               </p>
               <p className='leading-snug'>
                 • Onboarded and managed team of 15 outbound SDRs to prospect,
@@ -27,7 +27,7 @@ export default function GreenhouseExp({
                 <br />• Held structured twice-weekly 1:1s to reinforce
                 processes, metrics, aggressive goals and career ladders across
                 team <br /> • Acted as hiring manager to structure searching,
-                screening and interviewing of candidates and new hires <br />{' '}
+                screening and interviewing of candidates and new hires <br />
                 <br />
               </p>
             </div>
@@ -35,7 +35,7 @@ export default function GreenhouseExp({
           <div className='flex space-x-2 sm:space-x-4'>
             <div className='space-y-2'>
               <p className='text-lg font-medium leading-snug'>
-                Customer Success Manager | May 2018 – July 2019
+                Customer Success Manager <br /> May 2018 – July 2019
               </p>
               <p className='leading-snug'>
                 • Managed 200+ clients over the course of my time with
@@ -58,7 +58,7 @@ export default function GreenhouseExp({
           <div className='flex space-x-2 sm:space-x-4'>
             <div className='space-y-2'>
               <p className='text-lg font-medium leading-snug'>
-                Implementation Manager | July 2017– April 2018
+                Implementation Manager <br /> July 2017– April 2018
               </p>
               <p className='leading-snug'>
                 • Partnered with over 150 customers for the first 60 days of
@@ -75,7 +75,7 @@ export default function GreenhouseExp({
           <div className='flex space-x-2 sm:space-x-4'>
             <div className='space-y-2'>
               <p className='text-lg font-medium leading-snug'>
-                Team Lead, Sales Development | August 2016 – June 2017
+                Team Lead, Sales Development <br /> August 2016 – June 2017
               </p>
               <p className='leading-snug'>
                 • Mentored reps with the goal of performance improvement and
@@ -91,7 +91,7 @@ export default function GreenhouseExp({
           <div className='flex space-x-2 sm:space-x-4'>
             <div className='space-y-2'>
               <p className='text-lg font-medium leading-snug'>
-                Sales Development Representative | August 2015 – July 2016
+                Sales Development Representative <br /> August 2015 – July 2016
               </p>
               <p className='leading-snug'>
                 • Consistently hit 100%+ of quota and generated leads resulting

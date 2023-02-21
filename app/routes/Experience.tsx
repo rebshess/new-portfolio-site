@@ -20,7 +20,12 @@ export default function Experience() {
         </h1>
       </div>
       <div className='container flex flex-col items-center justify-center mx-auto lg:flex-row lg:flex-wrap lg:justify-evenly lg:px-10'>
-        <NavLink onClick={() => setOpenGreenhouse(true)}>
+        <NavLink
+          onClick={() => {
+            if (openGreenhouse === true) setOpenGreenhouse(false);
+            if (openGreenhouse === false) setOpenGreenhouse(true);
+          }}
+        >
           <div className='flex flex-col max-w-sm mx-4 my-6 shadow-lg hover:scale-105'>
             <div className='px-4 py-12 rounded-t-lg sm:px-8 md:px-12 dark:bg-zinc-800'>
               <p className='relative px-6 py-1 text-lg italic text-center dark:text-gray-100'>
