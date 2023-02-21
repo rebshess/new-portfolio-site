@@ -1,10 +1,17 @@
-import { Link } from '@remix-run/react';
+import { NavLink } from '@remix-run/react';
+import { useState } from 'react';
+
+import GreenhouseExp from './experience/GreenhouseExp';
 
 import Greenhouse from 'public/Greenhouse.png';
 import Attentive from 'public/Attentive.png';
 import VisiQL from 'public/VisiQL.png';
 
 export default function Experience() {
+  const [openGreenhouse, setOpenGreenhouse] = useState(false);
+  //   const [openAttentive, setOpenAttentive] = useState(false);
+  //   const [openVisiQL, setOpenVisiQL] = useState(false);
+
   return (
     <section className='my-10 dark:text-gray-100'>
       <div className='container flex flex-col items-center mx-auto mb-12 md:p-10 md:px-12'>
@@ -13,31 +20,35 @@ export default function Experience() {
         </h1>
       </div>
       <div className='container flex flex-col items-center justify-center mx-auto lg:flex-row lg:flex-wrap lg:justify-evenly lg:px-10'>
-        {/* <Link to='experience/greenhouse' onClick={}> */}
-        <div className='flex flex-col max-w-sm mx-4 my-6 shadow-lg hover:scale-105'>
-          <div className='px-4 py-12 rounded-t-lg sm:px-8 md:px-12 dark:bg-zinc-800'>
-            <p className='relative px-6 py-1 text-lg italic text-center dark:text-gray-100'>
-              Greenhouse is the hiring operating system for people-first
-              companies. Our software and structured hiring approach will help
-              you get better at hiring, so you have the technology you need to
-              take on what’s next.
-            </p>
+        <NavLink onClick={() => setOpenGreenhouse(true)}>
+          <div className='flex flex-col max-w-sm mx-4 my-6 shadow-lg hover:scale-105'>
+            <div className='px-4 py-12 rounded-t-lg sm:px-8 md:px-12 dark:bg-zinc-800'>
+              <p className='relative px-6 py-1 text-lg italic text-center dark:text-gray-100'>
+                Greenhouse is the hiring operating system for people-first
+                companies. Our software and structured hiring approach will help
+                you get better at hiring, so you have the technology you need to
+                take on what’s next.
+              </p>
+            </div>
+            <div className='flex flex-col items-center justify-center p-8 rounded-b-lg dark:bg-indigo-500 dark:text-gray-900'>
+              <img
+                src={Greenhouse}
+                alt='Greenhouse Logo'
+                className='w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full dark:bg-gray-500 dark:bg-gray-700'
+              />
+              <p className='text-xl font-semibold leading-tight'>
+                Greenhouse Software
+              </p>
+              <p className='text-sm uppercase'>New York, NY</p>
+              <p>2015 - 2020</p>
+            </div>
           </div>
-
-          <div className='flex flex-col items-center justify-center p-8 rounded-b-lg dark:bg-indigo-500 dark:text-gray-900'>
-            <img
-              src={Greenhouse}
-              alt='Greenhouse Logo'
-              className='w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full dark:bg-gray-500 dark:bg-gray-700'
-            />
-            <p className='text-xl font-semibold leading-tight'>
-              Greenhouse Software
-            </p>
-            <p className='text-sm uppercase'>New York, NY</p>
-            <p>2015 - 2020</p>
-          </div>
-        </div>
-        {/* </Link> */}
+        </NavLink>
+        {/* @ts-ignore */}
+        <GreenhouseExp
+          openGreenhouse={openGreenhouse}
+          setOpenGreenhouse={setOpenGreenhouse}
+        />
         <div className='flex flex-col max-w-sm mx-4 my-6 shadow-lg hover:scale-105'>
           <div className='px-4 py-12 rounded-t-lg sm:px-8 md:px-12 dark:bg-zinc-800'>
             <p className='relative px-6 py-1 text-lg italic text-center dark:text-gray-100'>

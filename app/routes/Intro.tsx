@@ -6,11 +6,9 @@ export default function Intro() {
       <div className='container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-22 lg:flex-row lg:justify-between'>
         <div className='flex flex-col justify-center p-1 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left'>
           <h1 className='text-5xl font-bold leading-none sm:text-6xl'>
-            Hi, I'm
-            <br />
             <span className='dark:text-indigo-500'> Rebecca Shesser </span>
             <br />
-            and I am a Brooklyn-based full-stack software engineer
+            Brooklyn-based full-stack software engineer
           </h1>
 
           <div className='flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start mt-9'>

@@ -6,8 +6,6 @@ import Experience from './Experience';
 import Techstack from './Techstack';
 import Projects from './Projects';
 
-import Greenhouse from './experience/Greenhouse';
-
 export default function Index() {
   return (
     <div>
