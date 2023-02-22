@@ -11,10 +11,10 @@ export default function Intro() {
             Brooklyn-based full-stack software engineer
           </h1>
 
-          <div className='flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start mt-9'>
+          {/* <div className='flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start mt-9'>
             <a
               rel='noopener noreferrer'
-              href='#'
+              href='/resume'
               className='px-8 py-3 text-lg font-semibold rounded dark:bg-indigo-500 dark:text-gray-900'
             >
               Resume
@@ -26,7 +26,7 @@ export default function Intro() {
             >
               Get in Touch
             </a>
-          </div>
+          </div> */}
         </div>
         <div className='flex items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128'>
           <img

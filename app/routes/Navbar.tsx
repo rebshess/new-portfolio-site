@@ -1,11 +1,13 @@
+import RSLogo from 'public/RS Logo.png';
+
 export default function Navbar() {
   return (
     <div style={{ fontFamily: 'system-ui, sans-serif', lineHeight: '1.4' }}>
-      <div className='flex items-center justify-between flex-wrap bg-zinc-600 p-6'>
-        <div className='flex items-center flex-shrink-0 text-white mr-6'>
-          <span className='font-semibold text-xl tracking-tight'>
-            Rebecca Shesser
-          </span>
+      <div className='flex items-center justify-between flex-wrap bg-zinc-800 p-6'>
+        <div className='flex items-center flex-shrink-0 text-white'>
+          <a href='/'>
+            <img src={RSLogo} alt='rs-logo'></img>
+          </a>
         </div>
         <div className='flex gap-10 justify-center items-center'>
           <a href='mailto:rebeccashesser@gmail.com'>
