@@ -28,7 +28,7 @@ export default function Feature() {
           </p>
 
           <a
-            href='/'
+            href='https://github.com/rebshess/The-Guest-List-App'
             aria-label=''
             className='inline-flex items-center font-semibold transition-colors duration-200 text-indigo-500 hover:text-indigo-800'
           >
@@ -54,7 +54,7 @@ export default function Feature() {
             skill build
           </p>
           <a
-            href='/'
+            href='https://github.com/ECRI-36-PANTLESS-THUNDERGEESE/CodersOnly'
             aria-label=''
             className='inline-flex items-center font-semibold transition-colors duration-200 text-indigo-500 hover:text-indigo-800'
           >
@@ -84,7 +84,7 @@ export default function Feature() {
           </p>
 
           <a
-            href='/'
+            href='https://github.com/TeamEevee-36/ResolutionEvolution/tree/dev'
             aria-label=''
             className='inline-flex items-center font-semibold transition-colors duration-200 text-indigo-500 hover:text-indigo-800'
           >

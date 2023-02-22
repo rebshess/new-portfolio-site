@@ -13,10 +13,8 @@ export default function VisiQLExp({ openVisiQL, setOpenVisiQL }: VisiQLProps) {
           <div className='flex space-x-2 sm:space-x-4'>
             <div className='space-y-2 '>
               <p className='text-lg font-medium leading-snug'>
-                Solutions Engineer & <br />
-                Lead Client Strategy Manager
-                <br />
-                June 2020 - January 2023
+                Software Engineer <br />
+                September 2022 - Present
               </p>
               <p className='leading-snug'>
                 • Wrote front-end and back-end files in TypeScript to take
@@ -53,6 +51,11 @@ export default function VisiQLExp({ openVisiQL, setOpenVisiQL }: VisiQLProps) {
               alt='visiql-logo'
               className='rounded-lg shadow-lg'
             />
+            <a href='http://www.visiql.dev'>
+              <h2 className='text-xl font-bold	hover:text-indigo-500'>
+                VisiQL.dev
+              </h2>
+            </a>
           </div>
         </div>
       </div>

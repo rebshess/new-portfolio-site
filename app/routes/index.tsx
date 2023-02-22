@@ -5,6 +5,7 @@ import Intro from './Intro';
 import Experience from './Experience';
 import Techstack from './Techstack';
 import Projects from './Projects';
+import BottomBar from './BottomBar';
 
 export default function Index() {
   return (
@@ -14,6 +15,7 @@ export default function Index() {
       <Experience />
       <Techstack />
       <Projects />
+      <BottomBar />
     </div>
   );
 }

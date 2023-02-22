@@ -1,19 +1,17 @@
-export default function Navbar() {
+export default function BottomBar() {
   return (
-    <div style={{ fontFamily: 'system-ui, sans-serif', lineHeight: '1.4' }}>
-      <div className='flex items-center justify-between flex-wrap bg-zinc-600 p-6'>
-        <div className='flex items-center flex-shrink-0 text-white mr-6'>
-          <span className='font-semibold text-xl tracking-tight'>
-            Rebecca Shesser
-          </span>
-        </div>
+    <div className=' dark:bg-zinc-800  dark:text-gray-100'>
+      <div className=' flex flex-col container p-6 mx-auto text-center justify-center lg:p-8 lg:space-y-8'>
+        <h2 className='flex justify-center items-center text-3xl font-bold'>
+          Let's work together
+        </h2>
         <div className='flex gap-10 justify-center items-center'>
           <a href='mailto:rebeccashesser@gmail.com'>
             <svg
               xmlns='http://www.w3.org/2000/svg'
               width='40'
               height='40'
-              fill='white'
+              fill='currentColor'
               className='bi bi-envelope'
               viewBox='0 0 16 16'
             >
@@ -25,7 +23,7 @@ export default function Navbar() {
               xmlns='http://www.w3.org/2000/svg'
               width='40'
               height='40'
-              fill='white'
+              fill='currentColor'
               className='bi bi-telephone'
               viewBox='0 0 16 16'
             >
@@ -37,7 +35,7 @@ export default function Navbar() {
               xmlns='http://www.w3.org/2000/svg'
               width='40'
               height='40'
-              fill='white'
+              fill='currentColor'
               className='bi bi-linkedin'
               viewBox='0 0 16 16'
             >

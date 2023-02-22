@@ -47,11 +47,11 @@ export default function AttentiveExp({
             </div>
           </div>
         </div>
-        <div className='flex lg:w-25% dark:bg-gray-800 justify-center items-center'>
+        <div className='flex lg:w-1/4 xl:w-1/4 dark:bg-gray-800 justify-center items-center'>
           <div className='flex flex-col items-center justify-center p-4 md:p-8 lg:p-12'>
             <img
               src={Attentive}
-              alt='gh-logo'
+              alt='attn-logo'
               className='rounded-lg shadow-lg'
             />
           </div>
